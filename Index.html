@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <script src="/storage/emulated/0/Devloper/Html Css js/project 4/scripts/jss.js"></script>
+  <link rel="stylesheet" type="text/css" href="/storage/emulated/0/Devloper/Html Css js/project 4/styles/style.css">
+  <title>On-Screen Calculator</title>
+</head>
+<body>
+  <div class="calculator">
+    <div class="input-box">
+      <input type="text" id="input-display" placeholder="Enter your calculation">
+    </div>
+    <div class="output-box">
+      <input type="text" id="output-display" placeholder="Result" readonly>
+    </div>
+    <div class="keyboard">
+      <div class="key" onclick="appendToInput('1')">1</div>
+      <div class="key" onclick="appendToInput('2')">2</div>
+      <div class="key" onclick="appendToInput('3')">3</div>
+      <div class="key" onclick="appendToInput('+')">+</div>
+      <div class="key" onclick="appendToInput('4')">4</div>
+      <div class="key" onclick="appendToInput('5')">5</div>
+      <div class="key" onclick="appendToInput('6')">6</div>
+      <div class="key" onclick="appendToInput('-')">-</div>
+      <div class="key" onclick="appendToInput('7')">7</div>
+      <div class="key" onclick="appendToInput('8')">8</div>
+      <div class="key" onclick="appendToInput('9')">9</div>
+      <div class="key" onclick="appendToInput('*')">*</div>
+      <div class="key" onclick="appendToInput('0')">0</div>
+      <div class="key" onclick="appendToInput('.')">.</div>
+      <div class="key" onclick="appendToInput('/')">/</div>
+      <div class="key" onclick="appendToInput('%')">%</div>
+      <div class="key" onclick="appendToInput('(')">(</div>
+      <div class="key" onclick="appendToInput(')')">)</div>
+      <div class="key" onclick="calculateResult()">=</div>
+      <div class="key clear" onclick="clearInput()">C</div>
+    </div>
+  </div>
+  
+</body>
+        </html>
