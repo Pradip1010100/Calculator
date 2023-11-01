@@ -1,0 +1,64 @@
+/* CSS for styling the on-screen calculator */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f0f0f0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  margin: 0;
+}
+
+.calculator {
+  background-color: #fff;
+  padding: 20px;
+  border: 2px solid #3498db;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  text-align: center;
+}
+
+.input-box, .output-box {
+  text-align: center;
+  margin: 10px;
+}
+
+#input-display, #output-display {
+  width: 250px;
+  height: 40px;
+  padding: 10px;
+  font-size: 18px;
+  border: 2px solid #3498db;
+  border-radius: 5px;
+}
+
+.keyboard {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 10px;
+  padding: 10px;
+}
+
+.key {
+  width: 60px;
+  height: 60px;
+  background-color: #3498db;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid #2980b9;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 24px;
+}
+
+.key.clear {
+  background-color: #e74c3c;
+  border: 2px solid #c0392b;
+}
+
+.key:hover {
+  background-color: #2980b9;
+}
